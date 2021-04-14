@@ -1,0 +1,502 @@
+0||0||[SEARCH FROM:weather  WHERE:HERE WHEN:tomorrow]||O||O||
+ther)]
+0||14||[MODE WEATHERFORECAST WHERE:[SEARCH KEYWORD:weather] WHEN:tomorrow]||X||X||[SEARCH FROM:weather WHERE:HERE WHEN:the day after tomorrow]
+0||0||[SEARCH FROM:weather  WHERE:HERE WHEN:next week]||O||O||
+0||0||[SEARCH FROM:weather  WHERE:HERE WHEN:afternoon]||O||O||
+0||0||[SEARCH FROM:weather  WHERE:HERE WHEN:morning]||O||O||
+0||0||[SEARCH FROM:weather  WHERE:HERE WHEN:evening]||O||O||
+0||0||[SEARCH FROM:weather  WHERE:HERE WHEN:dawn]||O||O||
+0||0||[SEARCH FROM:weather  WHERE:HERE WHEN:midnight]||O||O||
+0||0||[SEARCH FROM:weather  WHERE:HERE WHEN:noon]||O||O||
+0||0||[SEARCH FROM:weather forecast  WHERE:HERE WHEN:tomorrow]||O||O||
+0||14||[MODE WEATHERFORECAST WHERE:[SEARCH KEYWORD:weather forecast] WHEN:tomorrow]||X||X||[SEARCH FROM:weather forecast WHERE:HERE WHEN:the day after tomorrow]
+0||0||[SEARCH FROM:weather forecast  WHERE:HERE WHEN:next week]||O||O||
+0||0||[SEARCH FROM:weather forecast  WHERE:HERE WHEN:afternoon]||O||O||
+0||0||[SEARCH FROM:weather forecast  WHERE:HERE WHEN:morning]||O||O||
+0||0||[SEARCH FROM:weather forecast  WHERE:HERE WHEN:evening]||O||O||
+0||0||[SEARCH FROM:weather forecast  WHERE:HERE WHEN:dawn]||O||O||
+0||0||[SEARCH FROM:weather forecast  WHERE:HERE WHEN:midnight]||O||O||
+0||0||[SEARCH FROM:weather forecast  WHERE:HERE WHEN:noon]||O||O||
+1||1||[SEARCH FROM:route WHERE:route]||O||O||
+1||1||[SEARCH FROM:route WHERE:traffic camera]||O||O||
+1||1||[SEARCH FROM:route WHERE:traffic]||O||O||
+1||1||[SEARCH FROM:route WHERE:speed camera]||O||O||
+1||1||[SEARCH FROM:traffic camera WHERE:route]||O||O||
+1||1||[SEARCH FROM:traffic camera WHERE:traffic camera]||O||O||
+1||1||[SEARCH FROM:traffic camera WHERE:traffic]||O||O||
+1||1||[SEARCH FROM:traffic camera WHERE:speed camera]||O||O||
+1||1||[SEARCH FROM:traffic WHERE:route]||O||O||
+1||1||[SEARCH FROM:traffic WHERE:traffic camera]||O||O||
+1||1||[SEARCH FROM:traffic WHERE:traffic]||O||O||
+1||1||[SEARCH FROM:traffic WHERE:speed camera]||O||O||
+1||1||[SEARCH FROM:speed camera WHERE:route]||O||O||
+1||1||[SEARCH FROM:speed camera WHERE:traffic camera]||O||O||
+1||1||[SEARCH FROM:speed camera WHERE:traffic]||O||O||
+1||1||[SEARCH FROM:speed camera WHERE:speed camera]||O||O||
+2||2||[SEARCH FROM:route  WHERE:[SEARCH GEOCODE WHERE:US-101 and geocode]]||O||X||[SEARCH FROM:route WHERE:[SEARCH GEOCODE WHERE:US-101 and [geocode]]]
+2||2||[SEARCH FROM:route  WHERE:[SEARCH GEOCODE WHERE:Bayshore Blvd and geocode]]||O||X||[SEARCH FROM:route WHERE:[SEARCH GEOCODE WHERE:Bayshore Blvd and [geocode]]]
+2||2||[SEARCH FROM:route  WHERE:[SEARCH GEOCODE WHERE:I-580 East and geocode]]||O||X||[SEARCH FROM:route WHERE:[SEARCH GEOCODE WHERE:I-580 East and [geocode]]]
+2||2||[SEARCH FROM:geocode  WHERE:[SEARCH GEOCODE WHERE:US-101 and traffic camera]]||O||X||[SEARCH FROM:traffic camera WHERE:[SEARCH GEOCODE WHERE:US-101 and [geocode]]]
+2||2||[SEARCH FROM:geocode  WHERE:[SEARCH GEOCODE WHERE:Bayshore Blvd and traffic camera]]||O||X||[SEARCH FROM:traffic camera WHERE:[SEARCH GEOCODE WHERE:Bayshore Blvd and [geocode]]]
+2||2||[SEARCH FROM:geocode  WHERE:[SEARCH GEOCODE WHERE:I-580 East and traffic camera]]||O||X||[SEARCH FROM:traffic camera WHERE:[SEARCH GEOCODE WHERE:I-580 East and [geocode]]]
+2||2||[SEARCH FROM:traffic  WHERE:[SEARCH GEOCODE WHERE:US-101 and geocode]]||O||X||[SEARCH FROM:traffic WHERE:[SEARCH GEOCODE WHERE:US-101 and [geocode]]]
+2||2||[SEARCH FROM:traffic  WHERE:[SEARCH GEOCODE WHERE:Bayshore Blvd and geocode]]||O||X||[SEARCH FROM:traffic WHERE:[SEARCH GEOCODE WHERE:Bayshore Blvd and [geocode]]]
+2||2||[SEARCH FROM:traffic  WHERE:[SEARCH GEOCODE WHERE:I-580 East and geocode]]||O||X||[SEARCH FROM:traffic WHERE:[SEARCH GEOCODE WHERE:I-580 East and [geocode]]]
+2||2||[SEARCH FROM:geocode  WHERE:[SEARCH GEOCODE WHERE:US-101 and speed camera]]||O||X||[SEARCH FROM:speed camera WHERE:[SEARCH GEOCODE WHERE:US-101 and [geocode]]]
+2||2||[SEARCH FROM:geocode  WHERE:[SEARCH GEOCODE WHERE:Bayshore Blvd and speed camera]]||O||X||[SEARCH FROM:speed camera WHERE:[SEARCH GEOCODE WHERE:Bayshore Blvd and [geocode]]]
+2||2||[SEARCH FROM:geocode  WHERE:[SEARCH GEOCODE WHERE:I-580 East and speed camera]]||O||X||[SEARCH FROM:speed camera WHERE:[SEARCH GEOCODE WHERE:I-580 East and [geocode]]]
+2||16||[ROUTE US-101]||X||X||[SEARCH FROM:[other] WHERE:[SEARCH GEOCODE WHERE:US-101 and US-101]]
+2||13||[MODE US-101 WHERE:Bayshore Blvd WITH:[VOICERESPONSE TEMPLATE:””*]]||X||X||[SEARCH FROM:[other] WHERE:[SEARCH GEOCODE WHERE:US-101 and Bayshore Blvd]]
+2||13||[MODE US-101 WHERE:I-580 East WITH:[VOICERESPONSE TEMPLATE:””*]]||X||X||[SEARCH FROM:[other] WHERE:[SEARCH GEOCODE WHERE:US-101 and I-580 East]]
+2||13||[MODE Bayshore Blvd WHERE:US-101 WITH:[VOICERESPONSE TEMPLATE:””*]]||X||X||[SEARCH FROM:[other] WHERE:[SEARCH GEOCODE WHERE:Bayshore Blvd and US-101]]
+2||16||[ROUTE Bayshore Blvd]||X||X||[SEARCH FROM:[other] WHERE:[SEARCH GEOCODE WHERE:Bayshore Blvd and Bayshore Blvd]]
+2||13||[MODE Bayshore Blvd WHERE:I-580 East WITH:[VOICERESPONSE TEMPLATE:””*]]||X||X||[SEARCH FROM:[other] WHERE:[SEARCH GEOCODE WHERE:Bayshore Blvd and I-580 East]]
+2||13||[MODE I-580 East WHERE:US-101 WITH:[VOICERESPONSE TEMPLATE:””*]]||X||X||[SEARCH FROM:[other] WHERE:[SEARCH GEOCODE WHERE:I-580 East and US-101]]
+2||13||[MODE Bayshore Blvd WHERE:I-580 East WITH:[VOICERESPONSE TEMPLATE:””*]]||X||X||[SEARCH FROM:[other] WHERE:[SEARCH GEOCODE WHERE:I-580 East and Bayshore Blvd]]
+2||16||[ROUTE I-580 East]||X||X||[SEARCH FROM:[other] WHERE:[SEARCH GEOCODE WHERE:I-580 East and I-580 East]]
+3||3||[SEARCH FROM:burger king WHERE:NEARBY WITH:burger king]||O||O||
+3||15||[ROUTE INFO:SCHOOL]||X||X||[SEARCH FROM:burger king WHERE:NEARBY WITH:burgerking]
+3||3||[SEARCH FROM:burger king WHERE:NEARBY WITH:restroom]||O||O||
+3||3||[SEARCH FROM:burger king WHERE:NEARBY WITH:restroom facility]||O||O||
+3||3||[SEARCH FROM:burger king WHERE:NEARBY WITH:super market]||O||O||
+3||3||[SEARCH FROM:burger king WHERE:NEARBY WITH:supermarket]||O||O||
+3||3||[SEARCH FROM:burger king WHERE:NEARBY WITH:school]||O||O||
+3||3||[SEARCH FROM:burger king WHERE:NEARBY WITH:starbucks]||O||O||
+3||3||[SEARCH FROM:burger king WHERE:NEARBY WITH:coffee shop]||O||O||
+3||3||[SEARCH FROM:burger king WHERE:NEARBY WITH:cafe]||O||O||
+3||3||[SEARCH FROM:burger king WHERE:NEARBY WITH:college]||O||O||
+3||3||[SEARCH FROM:burger king WHERE:NEARBY WITH:gas station]||O||O||
+3||3||[SEARCH FROM:burger king WHERE:NEARBY WITH:park]||O||O||
+3||3||[SEARCH FROM:burger king WHERE:NEARBY WITH:department store]||O||O||
+3||15||[ROUTE INFO:WASHINGTON]||X||X||[SEARCH FROM:burger king WHERE:NEARBY WITH:restaurent]
+3||3||[SEARCH FROM:burger king WHERE:NEARBY WITH:parking]||O||X||[SEARCH FROM:burger king WHERE:NEARBY WITH:indoor parking]
+3||3||[SEARCH FROM:burger king WHERE:NEARBY WITH:parking]||O||X||[SEARCH FROM:burger king WHERE:NEARBY WITH:outdoor parking]
+3||3||[SEARCH FROM:burger king WHERE:NEARBY WITH:destination]||O||X||[SEARCH FROM:burger king WHERE:NEARBY WITH:my destination]
+3||3||[SEARCH FROM:burgerking WHERE:NEARBY WITH:burger king]||O||O||
+3||0||[SEARCH FROM:burgerking  WHERE:HERE WHEN:noon]||X||X||[SEARCH FROM:burgerking WHERE:NEARBY WITH:burgerking]
+3||3||[SEARCH FROM:burgerking WHERE:NEARBY WITH:restroom]||O||O||
+3||3||[SEARCH FROM:burgerking WHERE:NEARBY WITH:restroom facility]||O||O||
+3||3||[SEARCH FROM:burgerking WHERE:NEARBY WITH:super market]||O||O||
+3||3||[SEARCH FROM:burgerking WHERE:NEARBY WITH:supermarket]||O||O||
+3||3||[SEARCH FROM:burgerking WHERE:NEARBY WITH:school]||O||O||
+3||3||[SEARCH FROM:burgerking WHERE:NEARBY WITH:starbucks]||O||O||
+3||3||[SEARCH FROM:burgerking WHERE:NEARBY WITH:coffee shop]||O||O||
+3||3||[SEARCH FROM:burgerking WHERE:NEARBY WITH:cafe]||O||O||
+3||3||[SEARCH FROM:burgerking WHERE:NEARBY WITH:college]||O||O||
+3||3||[SEARCH FROM:burgerking WHERE:NEARBY WITH:gas station]||O||O||
+3||3||[SEARCH FROM:burgerking WHERE:NEARBY WITH:park]||O||O||
+3||3||[SEARCH FROM:burgerking WHERE:NEARBY WITH:department store]||O||O||
+3||15||[ROUTE INFO:WASHINGTON]||X||X||[SEARCH FROM:burgerking WHERE:NEARBY WITH:restaurent]
+3||3||[SEARCH FROM:burgerking WHERE:NEARBY WITH:parking]||O||X||[SEARCH FROM:burgerking WHERE:NEARBY WITH:indoor parking]
+3||3||[SEARCH FROM:burgerking WHERE:NEARBY WITH:parking]||O||X||[SEARCH FROM:burgerking WHERE:NEARBY WITH:outdoor parking]
+3||3||[SEARCH FROM:burgerking WHERE:NEARBY WITH:destination]||O||X||[SEARCH FROM:burgerking WHERE:NEARBY WITH:my destination]
+3||3||[SEARCH FROM:restroom WHERE:NEARBY WITH:burger king]||O||O||
+3||15||[ROUTE INFO:restroom]||X||X||[SEARCH FROM:restroom WHERE:NEARBY WITH:burgerking]
+3||3||[SEARCH FROM:restroom WHERE:NEARBY WITH:restroom]||O||O||
+3||3||[SEARCH FROM:restroom WHERE:NEARBY WITH:restroom facility]||O||O||
+3||3||[SEARCH FROM:restroom WHERE:NEARBY WITH:super market]||O||O||
+3||3||[SEARCH FROM:restroom WHERE:NEARBY WITH:supermarket]||O||O||
+3||3||[SEARCH FROM:restroom WHERE:NEARBY WITH:RESTROOM]||O||X||[SEARCH FROM:restroom WHERE:NEARBY WITH:school]
+3||3||[SEARCH FROM:restroom WHERE:NEARBY WITH:RESTROOM]||O||X||[SEARCH FROM:restroom WHERE:NEARBY WITH:starbucks]
+3||3||[SEARCH FROM:restroom WHERE:NEARBY WITH:coffee shop]||O||O||
+3||3||[SEARCH FROM:restroom WHERE:NEARBY WITH:cafe]||O||O||
+3||3||[SEARCH FROM:restroom WHERE:NEARBY WITH:college]||O||O||
+3||3||[SEARCH FROM:restroom WHERE:NEARBY WITH:gas station]||O||O||
+3||3||[SEARCH FROM:restroom WHERE:NEARBY WITH:park]||O||O||
+3||3||[SEARCH FROM:restroom WHERE:NEARBY WITH:department store]||O||O||
+3||3||[SEARCH FROM:restroom WHERE:NEARBY WITH:SOMETHING]||O||X||[SEARCH FROM:restroom WHERE:NEARBY WITH:restaurent]
+3||3||[SEARCH FROM:restroom WHERE:NEARBY WITH:parking]||O||X||[SEARCH FROM:restroom WHERE:NEARBY WITH:indoor parking]
+3||3||[SEARCH FROM:restroom WHERE:NEARBY WITH:parking]||O||X||[SEARCH FROM:restroom WHERE:NEARBY WITH:outdoor parking]
+3||3||[SEARCH FROM:restroom WHERE:NEARBY WITH:destination]||O||X||[SEARCH FROM:restroom WHERE:NEARBY WITH:my destination]
+3||3||[SEARCH FROM:restroom facility WHERE:NEARBY WITH:burger king]||O||O||
+3||15||[ROUTE INFO:restroom facility]||X||X||[SEARCH FROM:restroom facility WHERE:NEARBY WITH:burgerking]
+3||3||[SEARCH FROM:restroom facility WHERE:NEARBY WITH:restroom]||O||O||
+3||3||[SEARCH FROM:restroom facility WHERE:NEARBY WITH:restroom facility]||O||O||
+3||3||[SEARCH FROM:restroom facility WHERE:NEARBY WITH:market]||O||X||[SEARCH FROM:restroom facility WHERE:NEARBY WITH:super market]
+3||3||[SEARCH FROM:restroom facility WHERE:NEARBY WITH:supermarket]||O||O||
+3||3||[SEARCH FROM:restroom facility WHERE:NEARBY WITH:RESTROOM]||O||X||[SEARCH FROM:restroom facility WHERE:NEARBY WITH:school]
+3||3||[SEARCH FROM:restroom facility WHERE:NEARBY WITH:RESTROOM]||O||X||[SEARCH FROM:restroom facility WHERE:NEARBY WITH:starbucks]
+3||3||[SEARCH FROM:restroom facility WHERE:NEARBY WITH:coffee shop]||O||O||
+3||3||[SEARCH FROM:restroom facility WHERE:NEARBY WITH:cafe]||O||O||
+3||3||[SEARCH FROM:restroom facility WHERE:NEARBY WITH:college]||O||O||
+3||3||[SEARCH FROM:restroom facility WHERE:NEARBY WITH:gas station]||O||O||
+3||3||[SEARCH FROM:restroom facility WHERE:NEARBY WITH:park]||O||O||
+3||3||[SEARCH FROM:restroom facility WHERE:NEARBY WITH:department store]||O||O||
+3||15||[ROUTE INFO:restroom facility]||X||X||[SEARCH FROM:restroom facility WHERE:NEARBY WITH:restaurent]
+3||3||[SEARCH FROM:restroom facility WHERE:NEARBY WITH:parking]||O||X||[SEARCH FROM:restroom facility WHERE:NEARBY WITH:indoor parking]
+3||3||[SEARCH FROM:restroom facility WHERE:NEARBY WITH:parking]||O||X||[SEARCH FROM:restroom facility WHERE:NEARBY WITH:outdoor parking]
+3||3||[SEARCH FROM:restroom facility WHERE:NEARBY WITH:destination]||O||X||[SEARCH FROM:restroom facility WHERE:NEARBY WITH:my destination]
+3||3||[SEARCH FROM:market WHERE:NEARBY WITH:burger king]||O||X||[SEARCH FROM:super market WHERE:NEARBY WITH:burger king]
+3||15||[ROUTE INFO:SCHOOL]||X||X||[SEARCH FROM:super market WHERE:NEARBY WITH:burgerking]
+3||3||[SEARCH FROM:market WHERE:NEARBY WITH:restroom]||O||X||[SEARCH FROM:super market WHERE:NEARBY WITH:restroom]
+3||3||[SEARCH FROM:market WHERE:NEARBY WITH:restroom facility]||O||X||[SEARCH FROM:super market WHERE:NEARBY WITH:restroom facility]
+3||3||[SEARCH FROM:market WHERE:NEARBY WITH:market]||O||X||[SEARCH FROM:super market WHERE:NEARBY WITH:super market]
+3||3||[SEARCH FROM:market WHERE:NEARBY WITH:supermarket]||O||X||[SEARCH FROM:super market WHERE:NEARBY WITH:supermarket]
+3||3||[SEARCH FROM:super market WHERE:NEARBY WITH:school]||O||O||
+3||3||[SEARCH FROM:super market WHERE:NEARBY WITH:starbucks]||O||O||
+3||3||[SEARCH FROM:market WHERE:NEARBY WITH:coffee shop]||O||X||[SEARCH FROM:super market WHERE:NEARBY WITH:coffee shop]
+3||3||[SEARCH FROM:market WHERE:NEARBY WITH:cafe]||O||X||[SEARCH FROM:super market WHERE:NEARBY WITH:cafe]
+3||3||[SEARCH FROM:super market WHERE:NEARBY WITH:college]||O||O||
+3||3||[SEARCH FROM:super market WHERE:NEARBY WITH:gas station]||O||O||
+3||3||[SEARCH FROM:super market WHERE:NEARBY WITH:park]||O||O||
+3||3||[SEARCH FROM:market WHERE:NEARBY WITH:department store]||O||X||[SEARCH FROM:super market WHERE:NEARBY WITH:department store]
+3||15||[ROUTE INFO:WASHINGTON]||X||X||[SEARCH FROM:super market WHERE:NEARBY WITH:restaurent]
+3||3||[SEARCH FROM:super market WHERE:NEARBY WITH:parking]||O||X||[SEARCH FROM:super market WHERE:NEARBY WITH:indoor parking]
+3||3||[SEARCH FROM:super market WHERE:NEARBY WITH:parking]||O||X||[SEARCH FROM:super market WHERE:NEARBY WITH:outdoor parking]
+3||3||[SEARCH FROM:market WHERE:NEARBY WITH:destination]||O||X||[SEARCH FROM:super market WHERE:NEARBY WITH:my destination]
+3||3||[SEARCH FROM:supermarket WHERE:NEARBY WITH:burger king]||O||O||
+3||15||[ROUTE INFO:supermarket]||X||X||[SEARCH FROM:supermarket WHERE:NEARBY WITH:burgerking]
+3||3||[SEARCH FROM:supermarket WHERE:NEARBY WITH:restroom]||O||O||
+3||3||[SEARCH FROM:supermarket WHERE:NEARBY WITH:restroom facility]||O||O||
+3||3||[SEARCH FROM:supermarket WHERE:NEARBY WITH:market]||O||X||[SEARCH FROM:supermarket WHERE:NEARBY WITH:super market]
+3||3||[SEARCH FROM:supermarket WHERE:NEARBY WITH:supermarket]||O||O||
+3||3||[SEARCH FROM:supermarket WHERE:NEARBY WITH:RESTROOM]||O||X||[SEARCH FROM:supermarket WHERE:NEARBY WITH:school]
+3||3||[SEARCH FROM:supermarket WHERE:NEARBY WITH:RESTROOM]||O||X||[SEARCH FROM:supermarket WHERE:NEARBY WITH:starbucks]
+3||3||[SEARCH FROM:supermarket WHERE:NEARBY WITH:coffee shop]||O||O||
+3||3||[SEARCH FROM:supermarket WHERE:NEARBY WITH:cafe]||O||O||
+3||3||[SEARCH FROM:supermarket WHERE:NEARBY WITH:college]||O||O||
+3||3||[SEARCH FROM:supermarket WHERE:NEARBY WITH:gas station]||O||O||
+3||3||[SEARCH FROM:supermarket WHERE:NEARBY WITH:park]||O||O||
+3||3||[SEARCH FROM:supermarket WHERE:NEARBY WITH:department store]||O||O||
+3||3||[SEARCH FROM:supermarket WHERE:NEARBY WITH:SOMETHING]||O||X||[SEARCH FROM:supermarket WHERE:NEARBY WITH:restaurent]
+3||3||[SEARCH FROM:supermarket WHERE:NEARBY WITH:parking]||O||X||[SEARCH FROM:supermarket WHERE:NEARBY WITH:indoor parking]
+3||3||[SEARCH FROM:supermarket WHERE:NEARBY WITH:parking]||O||X||[SEARCH FROM:supermarket WHERE:NEARBY WITH:outdoor parking]
+3||3||[SEARCH FROM:supermarket WHERE:NEARBY WITH:destination]||O||X||[SEARCH FROM:supermarket WHERE:NEARBY WITH:my destination]
+3||3||[SEARCH FROM:school WHERE:NEARBY WITH:burger king]||O||O||
+3||15||[ROUTE INFO:school]||X||X||[SEARCH FROM:school WHERE:NEARBY WITH:burgerking]
+3||3||[SEARCH FROM:school WHERE:NEARBY WITH:restroom]||O||O||
+3||3||[SEARCH FROM:school WHERE:NEARBY WITH:restroom facility]||O||O||
+3||3||[SEARCH FROM:school WHERE:NEARBY WITH:super market]||O||O||
+3||3||[SEARCH FROM:school WHERE:NEARBY WITH:supermarket]||O||O||
+3||3||[SEARCH FROM:school WHERE:NEARBY WITH:school]||O||O||
+3||3||[SEARCH FROM:school WHERE:NEARBY WITH:starbucks]||O||O||
+3||3||[SEARCH FROM:school WHERE:NEARBY WITH:coffee shop]||O||O||
+3||3||[SEARCH FROM:school WHERE:NEARBY WITH:cafe]||O||O||
+3||3||[SEARCH FROM:school WHERE:NEARBY WITH:college]||O||O||
+3||3||[SEARCH FROM:school WHERE:NEARBY WITH:gas station]||O||O||
+3||3||[SEARCH FROM:school WHERE:NEARBY WITH:park]||O||O||
+3||3||[SEARCH FROM:school WHERE:NEARBY WITH:department store]||O||O||
+3||3||[SEARCH FROM:school WHERE:NEARBY WITH:SOMETHING]||O||X||[SEARCH FROM:school WHERE:NEARBY WITH:restaurent]
+3||3||[SEARCH FROM:school WHERE:NEARBY WITH:parking]||O||X||[SEARCH FROM:school WHERE:NEARBY WITH:indoor parking]
+3||3||[SEARCH FROM:school WHERE:NEARBY WITH:parking]||O||X||[SEARCH FROM:school WHERE:NEARBY WITH:outdoor parking]
+3||3||[SEARCH FROM:school WHERE:NEARBY WITH:destination]||O||X||[SEARCH FROM:school WHERE:NEARBY WITH:my destination]
+3||3||[SEARCH FROM:starbucks WHERE:NEARBY WITH:burger king]||O||O||
+3||15||[ROUTE INFO:starbucks]||X||X||[SEARCH FROM:starbucks WHERE:NEARBY WITH:burgerking]
+3||3||[SEARCH FROM:starbucks WHERE:NEARBY WITH:restroom]||O||O||
+3||3||[SEARCH FROM:starbucks WHERE:NEARBY WITH:restroom facility]||O||O||
+3||3||[SEARCH FROM:starbucks WHERE:NEARBY WITH:super market]||O||O||
+3||3||[SEARCH FROM:starbucks WHERE:NEARBY WITH:supermarket]||O||O||
+3||3||[SEARCH FROM:starbucks WHERE:NEARBY WITH:school]||O||O||
+3||3||[SEARCH FROM:starbucks WHERE:NEARBY WITH:WASHINGTON]||O||X||[SEARCH FROM:starbucks WHERE:NEARBY WITH:starbucks]
+3||3||[SEARCH FROM:starbucks WHERE:NEARBY WITH:coffee shop]||O||O||
+3||3||[SEARCH FROM:starbucks WHERE:NEARBY WITH:cafe]||O||O||
+3||3||[SEARCH FROM:starbucks WHERE:NEARBY WITH:college]||O||O||
+3||3||[SEARCH FROM:starbucks WHERE:NEARBY WITH:gas station]||O||O||
+3||3||[SEARCH FROM:starbucks WHERE:NEARBY WITH:park]||O||O||
+3||3||[SEARCH FROM:starbucks WHERE:NEARBY WITH:department store]||O||O||
+3||15||[ROUTE INFO:starbucks]||X||X||[SEARCH FROM:starbucks WHERE:NEARBY WITH:restaurent]
+3||3||[SEARCH FROM:starbucks WHERE:NEARBY WITH:parking]||O||X||[SEARCH FROM:starbucks WHERE:NEARBY WITH:indoor parking]
+3||3||[SEARCH FROM:starbucks WHERE:NEARBY WITH:parking]||O||X||[SEARCH FROM:starbucks WHERE:NEARBY WITH:outdoor parking]
+3||3||[SEARCH FROM:starbucks WHERE:NEARBY WITH:destination]||O||X||[SEARCH FROM:starbucks WHERE:NEARBY WITH:my destination]
+3||3||[SEARCH FROM:coffee shop WHERE:NEARBY WITH:burger king]||O||O||
+3||15||[ROUTE INFO:coffee shop]||X||X||[SEARCH FROM:coffee shop WHERE:NEARBY WITH:burgerking]
+3||3||[SEARCH FROM:coffee shop WHERE:NEARBY WITH:restroom]||O||O||
+3||3||[SEARCH FROM:coffee shop WHERE:NEARBY WITH:restroom facility]||O||O||
+3||3||[SEARCH FROM:coffee shop WHERE:NEARBY WITH:market]||O||X||[SEARCH FROM:coffee shop WHERE:NEARBY WITH:super market]
+3||3||[SEARCH FROM:coffee shop WHERE:NEARBY WITH:supermarket]||O||O||
+3||3||[SEARCH FROM:coffee shop WHERE:NEARBY WITH:RESTROOM]||O||X||[SEARCH FROM:coffee shop WHERE:NEARBY WITH:school]
+3||3||[SEARCH FROM:coffee shop WHERE:NEARBY WITH:RESTROOM]||O||X||[SEARCH FROM:coffee shop WHERE:NEARBY WITH:starbucks]
+3||3||[SEARCH FROM:coffee shop WHERE:NEARBY WITH:coffee shop]||O||O||
+3||3||[SEARCH FROM:coffee shop WHERE:NEARBY WITH:cafe]||O||O||
+3||3||[SEARCH FROM:coffee shop WHERE:NEARBY WITH:college]||O||O||
+3||3||[SEARCH FROM:coffee shop WHERE:NEARBY WITH:gas station]||O||O||
+3||3||[SEARCH FROM:coffee shop WHERE:NEARBY WITH:park]||O||O||
+3||3||[SEARCH FROM:coffee shop WHERE:NEARBY WITH:department store]||O||O||
+3||15||[ROUTE INFO:coffee shop]||X||X||[SEARCH FROM:coffee shop WHERE:NEARBY WITH:restaurent]
+3||3||[SEARCH FROM:coffee shop WHERE:NEARBY WITH:parking]||O||X||[SEARCH FROM:coffee shop WHERE:NEARBY WITH:indoor parking]
+3||3||[SEARCH FROM:coffee shop WHERE:NEARBY WITH:parking]||O||X||[SEARCH FROM:coffee shop WHERE:NEARBY WITH:outdoor parking]
+3||3||[SEARCH FROM:coffee shop WHERE:NEARBY WITH:destination]||O||X||[SEARCH FROM:coffee shop WHERE:NEARBY WITH:my destination]
+3||3||[SEARCH FROM:cafe WHERE:NEARBY WITH:burger king]||O||O||
+3||15||[ROUTE INFO:cafe]||X||X||[SEARCH FROM:cafe WHERE:NEARBY WITH:burgerking]
+3||3||[SEARCH FROM:cafe WHERE:NEARBY WITH:restroom]||O||O||
+3||3||[SEARCH FROM:cafe WHERE:NEARBY WITH:restroom facility]||O||O||
+3||3||[SEARCH FROM:cafe WHERE:NEARBY WITH:super market]||O||O||
+3||3||[SEARCH FROM:cafe WHERE:NEARBY WITH:supermarket]||O||O||
+3||3||[SEARCH FROM:cafe WHERE:NEARBY WITH:RESTROOM]||O||X||[SEARCH FROM:cafe WHERE:NEARBY WITH:school]
+3||3||[SEARCH FROM:cafe WHERE:NEARBY WITH:RESTROOM]||O||X||[SEARCH FROM:cafe WHERE:NEARBY WITH:starbucks]
+3||3||[SEARCH FROM:cafe WHERE:NEARBY WITH:coffee shop]||O||O||
+3||3||[SEARCH FROM:cafe WHERE:NEARBY WITH:cafe]||O||O||
+3||3||[SEARCH FROM:cafe WHERE:NEARBY WITH:college]||O||O||
+3||3||[SEARCH FROM:cafe WHERE:NEARBY WITH:gas station]||O||O||
+3||3||[SEARCH FROM:cafe WHERE:NEARBY WITH:park]||O||O||
+3||3||[SEARCH FROM:cafe WHERE:NEARBY WITH:department store]||O||O||
+3||3||[SEARCH FROM:cafe WHERE:NEARBY WITH:SOMETHING]||O||X||[SEARCH FROM:cafe WHERE:NEARBY WITH:restaurent]
+3||3||[SEARCH FROM:cafe WHERE:NEARBY WITH:parking]||O||X||[SEARCH FROM:cafe WHERE:NEARBY WITH:indoor parking]
+3||3||[SEARCH FROM:cafe WHERE:NEARBY WITH:parking]||O||X||[SEARCH FROM:cafe WHERE:NEARBY WITH:outdoor parking]
+3||3||[SEARCH FROM:cafe WHERE:NEARBY WITH:destination]||O||X||[SEARCH FROM:cafe WHERE:NEARBY WITH:my destination]
+3||3||[SEARCH FROM:college WHERE:NEARBY WITH:burger king]||O||O||
+3||15||[ROUTE INFO:SCHOOL]||X||X||[SEARCH FROM:college WHERE:NEARBY WITH:burgerking]
+3||3||[SEARCH FROM:college WHERE:NEARBY WITH:restroom]||O||O||
+3||3||[SEARCH FROM:college WHERE:NEARBY WITH:restroom facility]||O||O||
+3||3||[SEARCH FROM:college WHERE:NEARBY WITH:super market]||O||O||
+3||3||[SEARCH FROM:college WHERE:NEARBY WITH:supermarket]||O||O||
+3||3||[SEARCH FROM:college WHERE:NEARBY WITH:school]||O||O||
+3||3||[SEARCH FROM:college WHERE:NEARBY WITH:starbucks]||O||O||
+3||3||[SEARCH FROM:college WHERE:NEARBY WITH:coffee shop]||O||O||
+3||3||[SEARCH FROM:college WHERE:NEARBY WITH:cafe]||O||O||
+3||3||[SEARCH FROM:college WHERE:NEARBY WITH:college]||O||O||
+3||3||[SEARCH FROM:college WHERE:NEARBY WITH:gas station]||O||O||
+3||3||[SEARCH FROM:college WHERE:NEARBY WITH:park]||O||O||
+3||3||[SEARCH FROM:college WHERE:NEARBY WITH:department store]||O||O||
+3||3||[SEARCH FROM:college WHERE:NEARBY WITH:SOMETHING]||O||X||[SEARCH FROM:college WHERE:NEARBY WITH:restaurent]
+3||3||[SEARCH FROM:college WHERE:NEARBY WITH:parking]||O||X||[SEARCH FROM:college WHERE:NEARBY WITH:indoor parking]
+3||3||[SEARCH FROM:college WHERE:NEARBY WITH:parking]||O||X||[SEARCH FROM:college WHERE:NEARBY WITH:outdoor parking]
+3||3||[SEARCH FROM:college WHERE:NEARBY WITH:destination]||O||X||[SEARCH FROM:college WHERE:NEARBY WITH:my destination]
+3||3||[SEARCH FROM:gas station WHERE:NEARBY WITH:burger king]||O||O||
+3||15||[ROUTE INFO:gas station]||X||X||[SEARCH FROM:gas station WHERE:NEARBY WITH:burgerking]
+3||3||[SEARCH FROM:gas station WHERE:NEARBY WITH:restroom]||O||O||
+3||3||[SEARCH FROM:gas station WHERE:NEARBY WITH:restroom facility]||O||O||
+3||3||[SEARCH FROM:gas station WHERE:NEARBY WITH:market]||O||X||[SEARCH FROM:gas station WHERE:NEARBY WITH:super market]
+3||3||[SEARCH FROM:gas station WHERE:NEARBY WITH:supermarket]||O||O||
+3||3||[SEARCH FROM:gas station WHERE:NEARBY WITH:RESTROOM]||O||X||[SEARCH FROM:gas station WHERE:NEARBY WITH:school]
+3||3||[SEARCH FROM:gas station WHERE:NEARBY WITH:RESTROOM]||O||X||[SEARCH FROM:gas station WHERE:NEARBY WITH:starbucks]
+3||3||[SEARCH FROM:gas station WHERE:NEARBY WITH:coffee shop]||O||O||
+3||3||[SEARCH FROM:gas station WHERE:NEARBY WITH:cafe]||O||O||
+3||3||[SEARCH FROM:gas station WHERE:NEARBY WITH:college]||O||O||
+3||3||[SEARCH FROM:gas station WHERE:NEARBY WITH:gas station]||O||O||
+3||3||[SEARCH FROM:gas station WHERE:NEARBY WITH:park]||O||O||
+3||3||[SEARCH FROM:gas station WHERE:NEARBY WITH:department store]||O||O||
+3||15||[ROUTE INFO:gas station]||X||X||[SEARCH FROM:gas station WHERE:NEARBY WITH:restaurent]
+3||3||[SEARCH FROM:gas station WHERE:NEARBY WITH:parking]||O||X||[SEARCH FROM:gas station WHERE:NEARBY WITH:indoor parking]
+3||3||[SEARCH FROM:gas station WHERE:NEARBY WITH:parking]||O||X||[SEARCH FROM:gas station WHERE:NEARBY WITH:outdoor parking]
+3||3||[SEARCH FROM:gas station WHERE:NEARBY WITH:destination]||O||X||[SEARCH FROM:gas station WHERE:NEARBY WITH:my destination]
+3||3||[SEARCH FROM:park WHERE:NEARBY WITH:burger king]||O||O||
+3||15||[ROUTE INFO:park]||X||X||[SEARCH FROM:park WHERE:NEARBY WITH:burgerking]
+3||3||[SEARCH FROM:park WHERE:NEARBY WITH:restroom]||O||O||
+3||3||[SEARCH FROM:park WHERE:NEARBY WITH:restroom facility]||O||O||
+3||3||[SEARCH FROM:park WHERE:NEARBY WITH:market]||O||X||[SEARCH FROM:park WHERE:NEARBY WITH:super market]
+3||3||[SEARCH FROM:park WHERE:NEARBY WITH:supermarket]||O||O||
+3||3||[SEARCH FROM:park WHERE:NEARBY WITH:RESTROOM]||O||X||[SEARCH FROM:park WHERE:NEARBY WITH:school]
+3||3||[SEARCH FROM:park WHERE:NEARBY WITH:RESTROOM]||O||X||[SEARCH FROM:park WHERE:NEARBY WITH:starbucks]
+3||3||[SEARCH FROM:park WHERE:NEARBY WITH:coffee shop]||O||O||
+3||3||[SEARCH FROM:park WHERE:NEARBY WITH:cafe]||O||O||
+3||3||[SEARCH FROM:park WHERE:NEARBY WITH:college]||O||O||
+3||3||[SEARCH FROM:park WHERE:NEARBY WITH:gas station]||O||O||
+3||3||[SEARCH FROM:park WHERE:NEARBY WITH:park]||O||O||
+3||3||[SEARCH FROM:park WHERE:NEARBY WITH:department store]||O||O||
+3||15||[ROUTE INFO:park]||X||X||[SEARCH FROM:park WHERE:NEARBY WITH:restaurent]
+3||3||[SEARCH FROM:park WHERE:NEARBY WITH:parking]||O||X||[SEARCH FROM:park WHERE:NEARBY WITH:indoor parking]
+3||3||[SEARCH FROM:park WHERE:NEARBY WITH:parking]||O||X||[SEARCH FROM:park WHERE:NEARBY WITH:outdoor parking]
+3||3||[SEARCH FROM:park WHERE:NEARBY WITH:destination]||O||X||[SEARCH FROM:park WHERE:NEARBY WITH:my destination]
+3||3||[SEARCH FROM:department store WHERE:NEARBY WITH:burger king]||O||O||
+3||15||[ROUTE INFO:department store]||X||X||[SEARCH FROM:department store WHERE:NEARBY WITH:burgerking]
+3||3||[SEARCH FROM:department store WHERE:NEARBY WITH:restroom]||O||O||
+3||3||[SEARCH FROM:department store WHERE:NEARBY WITH:restroom facility]||O||O||
+3||3||[SEARCH FROM:department store WHERE:NEARBY WITH:market]||O||X||[SEARCH FROM:department store WHERE:NEARBY WITH:super market]
+3||3||[SEARCH FROM:department store WHERE:NEARBY WITH:supermarket]||O||O||
+3||3||[SEARCH FROM:department store WHERE:NEARBY WITH:RESTROOM]||O||X||[SEARCH FROM:department store WHERE:NEARBY WITH:school]
+3||3||[SEARCH FROM:department store WHERE:NEARBY WITH:RESTROOM]||O||X||[SEARCH FROM:department store WHERE:NEARBY WITH:starbucks]
+3||3||[SEARCH FROM:department store WHERE:NEARBY WITH:coffee shop]||O||O||
+3||3||[SEARCH FROM:department store WHERE:NEARBY WITH:cafe]||O||O||
+3||3||[SEARCH FROM:department store WHERE:NEARBY WITH:college]||O||O||
+3||3||[SEARCH FROM:department store WHERE:NEARBY WITH:gas station]||O||O||
+3||3||[SEARCH FROM:department store WHERE:NEARBY WITH:park]||O||O||
+3||3||[SEARCH FROM:department store WHERE:NEARBY WITH:department store]||O||O||
+3||15||[ROUTE INFO:department store]||X||X||[SEARCH FROM:department store WHERE:NEARBY WITH:restaurent]
+3||3||[SEARCH FROM:department store WHERE:NEARBY WITH:parking]||O||X||[SEARCH FROM:department store WHERE:NEARBY WITH:indoor parking]
+3||3||[SEARCH FROM:department store WHERE:NEARBY WITH:parking]||O||X||[SEARCH FROM:department store WHERE:NEARBY WITH:outdoor parking]
+3||3||[SEARCH FROM:department store WHERE:NEARBY WITH:destination]||O||X||[SEARCH FROM:department store WHERE:NEARBY WITH:my destination]
+3||3||[SEARCH FROM:WASHINGTON WHERE:NEARBY WITH:burger king]||O||X||[SEARCH FROM:restaurent WHERE:NEARBY WITH:burger king]
+3||15||[ROUTE INFO:WASHINGTON]||X||X||[SEARCH FROM:restaurent WHERE:NEARBY WITH:burgerking]
+3||3||[SEARCH FROM:restroom WHERE:NEARBY WITH:WASHINGTON]||O||X||[SEARCH FROM:restaurent WHERE:NEARBY WITH:restroom]
+3||3||[SEARCH FROM:restroom facility WHERE:NEARBY WITH:WASHINGTON]||O||X||[SEARCH FROM:restaurent WHERE:NEARBY WITH:restroom facility]
+3||3||[SEARCH FROM:WASHINGTON WHERE:NEARBY WITH:super market]||O||X||[SEARCH FROM:restaurent WHERE:NEARBY WITH:super market]
+3||3||[SEARCH FROM:supermarket WHERE:NEARBY WITH:WASHINGTON]||O||X||[SEARCH FROM:restaurent WHERE:NEARBY WITH:supermarket]
+3||3||[SEARCH FROM:school WHERE:NEARBY WITH:SCHOOL]||O||X||[SEARCH FROM:restaurent WHERE:NEARBY WITH:school]
+3||3||[SEARCH FROM:starbucks WHERE:NEARBY WITH:SCHOOL]||O||X||[SEARCH FROM:restaurent WHERE:NEARBY WITH:starbucks]
+3||3||[SEARCH FROM:coffee shop WHERE:NEARBY WITH:WASHINGTON]||O||X||[SEARCH FROM:restaurent WHERE:NEARBY WITH:coffee shop]
+3||3||[SEARCH FROM:cafe WHERE:NEARBY WITH:WASHINGTON]||O||X||[SEARCH FROM:restaurent WHERE:NEARBY WITH:cafe]
+3||3||[SEARCH FROM:WASHINGTON WHERE:NEARBY WITH:college]||O||X||[SEARCH FROM:restaurent WHERE:NEARBY WITH:college]
+3||3||[SEARCH FROM:gas station WHERE:NEARBY WITH:WASHINGTON]||O||X||[SEARCH FROM:restaurent WHERE:NEARBY WITH:gas station]
+3||3||[SEARCH FROM:park WHERE:NEARBY WITH:WASHINGTON]||O||X||[SEARCH FROM:restaurent WHERE:NEARBY WITH:park]
+3||3||[SEARCH FROM:department store WHERE:NEARBY WITH:WASHINGTON]||O||X||[SEARCH FROM:restaurent WHERE:NEARBY WITH:department store]
+3||8||[ROUTE TO:[SEARCH KEYWORD:restaurent]]||X||X||[SEARCH FROM:restaurent WHERE:NEARBY WITH:restaurent]
+3||3||[SEARCH FROM:WASHINGTON WHERE:NEARBY WITH:parking]||O||X||[SEARCH FROM:restaurent WHERE:NEARBY WITH:indoor parking]
+3||3||[SEARCH FROM:WASHINGTON WHERE:NEARBY WITH:parking]||O||X||[SEARCH FROM:restaurent WHERE:NEARBY WITH:outdoor parking]
+3||3||[SEARCH FROM:destination WHERE:NEARBY WITH:WASHINGTON]||O||X||[SEARCH FROM:restaurent WHERE:NEARBY WITH:my destination]
+3||3||[SEARCH FROM:parking WHERE:NEARBY WITH:burger king]||O||X||[SEARCH FROM:indoor parking WHERE:NEARBY WITH:burger king]
+3||15||[ROUTE INFO:SCHOOL]||X||X||[SEARCH FROM:indoor parking WHERE:NEARBY WITH:burgerking]
+3||3||[SEARCH FROM:parking WHERE:NEARBY WITH:restroom]||O||X||[SEARCH FROM:indoor parking WHERE:NEARBY WITH:restroom]
+3||3||[SEARCH FROM:parking WHERE:NEARBY WITH:restroom facility]||O||X||[SEARCH FROM:indoor parking WHERE:NEARBY WITH:restroom facility]
+3||3||[SEARCH FROM:parking WHERE:NEARBY WITH:super market]||O||X||[SEARCH FROM:indoor parking WHERE:NEARBY WITH:super market]
+3||3||[SEARCH FROM:parking WHERE:NEARBY WITH:supermarket]||O||X||[SEARCH FROM:indoor parking WHERE:NEARBY WITH:supermarket]
+3||3||[SEARCH FROM:parking WHERE:NEARBY WITH:school]||O||X||[SEARCH FROM:indoor parking WHERE:NEARBY WITH:school]
+3||3||[SEARCH FROM:parking WHERE:NEARBY WITH:starbucks]||O||X||[SEARCH FROM:indoor parking WHERE:NEARBY WITH:starbucks]
+3||3||[SEARCH FROM:parking WHERE:NEARBY WITH:coffee shop]||O||X||[SEARCH FROM:indoor parking WHERE:NEARBY WITH:coffee shop]
+3||3||[SEARCH FROM:parking WHERE:NEARBY WITH:cafe]||O||X||[SEARCH FROM:indoor parking WHERE:NEARBY WITH:cafe]
+3||3||[SEARCH FROM:parking WHERE:NEARBY WITH:college]||O||X||[SEARCH FROM:indoor parking WHERE:NEARBY WITH:college]
+3||3||[SEARCH FROM:parking WHERE:NEARBY WITH:gas station]||O||X||[SEARCH FROM:indoor parking WHERE:NEARBY WITH:gas station]
+3||3||[SEARCH FROM:parking WHERE:NEARBY WITH:park]||O||X||[SEARCH FROM:indoor parking WHERE:NEARBY WITH:park]
+3||3||[SEARCH FROM:parking WHERE:NEARBY WITH:department store]||O||X||[SEARCH FROM:indoor parking WHERE:NEARBY WITH:department store]
+3||11||[MODE DRIVERANGE TO:[SEARCH KEYWORD:MEETING FROM:SCHEDULE WHEN:noon] WITH:[VOICERESPONSE TEMPLATE:YES/NO*]]||X||X||[SEARCH FROM:indoor parking WHERE:NEARBY WITH:restaurent]
+3||3||[SEARCH FROM:parking WHERE:NEARBY WITH:parking]||O||X||[SEARCH FROM:indoor parking WHERE:NEARBY WITH:indoor parking]
+3||3||[SEARCH FROM:parking WHERE:NEARBY WITH:parking]||O||X||[SEARCH FROM:indoor parking WHERE:NEARBY WITH:outdoor parking]
+3||3||[SEARCH FROM:parking WHERE:NEARBY WITH:destination]||O||X||[SEARCH FROM:indoor parking WHERE:NEARBY WITH:my destination]
+3||3||[SEARCH FROM:parking WHERE:NEARBY WITH:burger king]||O||X||[SEARCH FROM:outdoor parking WHERE:NEARBY WITH:burger king]
+3||15||[ROUTE INFO:SCHOOL]||X||X||[SEARCH FROM:outdoor parking WHERE:NEARBY WITH:burgerking]
+3||3||[SEARCH FROM:parking WHERE:NEARBY WITH:restroom]||O||X||[SEARCH FROM:outdoor parking WHERE:NEARBY WITH:restroom]
+3||3||[SEARCH FROM:parking WHERE:NEARBY WITH:restroom facility]||O||X||[SEARCH FROM:outdoor parking WHERE:NEARBY WITH:restroom facility]
+3||3||[SEARCH FROM:parking WHERE:NEARBY WITH:super market]||O||X||[SEARCH FROM:outdoor parking WHERE:NEARBY WITH:super market]
+3||3||[SEARCH FROM:parking WHERE:NEARBY WITH:supermarket]||O||X||[SEARCH FROM:outdoor parking WHERE:NEARBY WITH:supermarket]
+3||3||[SEARCH FROM:parking WHERE:NEARBY WITH:school]||O||X||[SEARCH FROM:outdoor parking WHERE:NEARBY WITH:school]
+3||3||[SEARCH FROM:parking WHERE:NEARBY WITH:starbucks]||O||X||[SEARCH FROM:outdoor parking WHERE:NEARBY WITH:starbucks]
+3||3||[SEARCH FROM:parking WHERE:NEARBY WITH:coffee shop]||O||X||[SEARCH FROM:outdoor parking WHERE:NEARBY WITH:coffee shop]
+3||3||[SEARCH FROM:parking WHERE:NEARBY WITH:cafe]||O||X||[SEARCH FROM:outdoor parking WHERE:NEARBY WITH:cafe]
+3||3||[SEARCH FROM:parking WHERE:NEARBY WITH:college]||O||X||[SEARCH FROM:outdoor parking WHERE:NEARBY WITH:college]
+3||3||[SEARCH FROM:parking WHERE:NEARBY WITH:gas station]||O||X||[SEARCH FROM:outdoor parking WHERE:NEARBY WITH:gas station]
+3||3||[SEARCH FROM:parking WHERE:NEARBY WITH:park]||O||X||[SEARCH FROM:outdoor parking WHERE:NEARBY WITH:park]
+3||3||[SEARCH FROM:parking WHERE:NEARBY WITH:department store]||O||X||[SEARCH FROM:outdoor parking WHERE:NEARBY WITH:department store]
+3||15||[ROUTE INFO:WASHINGTON]||X||X||[SEARCH FROM:outdoor parking WHERE:NEARBY WITH:restaurent]
+3||3||[SEARCH FROM:parking WHERE:NEARBY WITH:parking]||O||X||[SEARCH FROM:outdoor parking WHERE:NEARBY WITH:indoor parking]
+3||3||[SEARCH FROM:parking WHERE:NEARBY WITH:WASHINGTON]||O||X||[SEARCH FROM:outdoor parking WHERE:NEARBY WITH:outdoor parking]
+3||3||[SEARCH FROM:parking WHERE:NEARBY WITH:destination]||O||X||[SEARCH FROM:outdoor parking WHERE:NEARBY WITH:my destination]
+3||3||[SEARCH FROM:destination WHERE:NEARBY WITH:burger king]||O||X||[SEARCH FROM:my destination WHERE:NEARBY WITH:burger king]
+3||15||[ROUTE INFO:destination]||X||X||[SEARCH FROM:my destination WHERE:NEARBY WITH:burgerking]
+3||3||[SEARCH FROM:destination WHERE:NEARBY WITH:restroom]||O||X||[SEARCH FROM:my destination WHERE:NEARBY WITH:restroom]
+3||3||[SEARCH FROM:destination WHERE:NEARBY WITH:restroom facility]||O||X||[SEARCH FROM:my destination WHERE:NEARBY WITH:restroom facility]
+3||3||[SEARCH FROM:destination WHERE:NEARBY WITH:market]||O||X||[SEARCH FROM:my destination WHERE:NEARBY WITH:super market]
+3||3||[SEARCH FROM:destination WHERE:NEARBY WITH:supermarket]||O||X||[SEARCH FROM:my destination WHERE:NEARBY WITH:supermarket]
+3||3||[SEARCH FROM:destination WHERE:NEARBY WITH:RESTROOM]||O||X||[SEARCH FROM:my destination WHERE:NEARBY WITH:school]
+3||3||[SEARCH FROM:destination WHERE:NEARBY WITH:RESTROOM]||O||X||[SEARCH FROM:my destination WHERE:NEARBY WITH:starbucks]
+3||3||[SEARCH FROM:destination WHERE:NEARBY WITH:coffee shop]||O||X||[SEARCH FROM:my destination WHERE:NEARBY WITH:coffee shop]
+3||3||[SEARCH FROM:destination WHERE:NEARBY WITH:cafe]||O||X||[SEARCH FROM:my destination WHERE:NEARBY WITH:cafe]
+3||3||[SEARCH FROM:destination WHERE:NEARBY WITH:college]||O||X||[SEARCH FROM:my destination WHERE:NEARBY WITH:college]
+3||3||[SEARCH FROM:destination WHERE:NEARBY WITH:gas station]||O||X||[SEARCH FROM:my destination WHERE:NEARBY WITH:gas station]
+3||3||[SEARCH FROM:destination WHERE:NEARBY WITH:park]||O||X||[SEARCH FROM:my destination WHERE:NEARBY WITH:park]
+3||3||[SEARCH FROM:destination WHERE:NEARBY WITH:department store]||O||X||[SEARCH FROM:my destination WHERE:NEARBY WITH:department store]
+3||3||[SEARCH FROM:destination WHERE:NEARBY WITH:SOMETHING]||O||X||[SEARCH FROM:my destination WHERE:NEARBY WITH:restaurent]
+3||3||[SEARCH FROM:destination WHERE:NEARBY WITH:parking]||O||X||[SEARCH FROM:my destination WHERE:NEARBY WITH:indoor parking]
+3||3||[SEARCH FROM:destination WHERE:NEARBY WITH:parking]||O||X||[SEARCH FROM:my destination WHERE:NEARBY WITH:outdoor parking]
+3||3||[SEARCH FROM:destination WHERE:NEARBY WITH:destination]||O||X||[SEARCH FROM:my destination WHERE:NEARBY WITH:my destination]
+4||4||[SEARCH ONE FROM:burger king WHERE:route]||O||X||[SEARCH ONE FROM:burger king WHERE:ALONGROUTE]
+4||4||[SEARCH ONE FROM:burgerking WHERE:route]||O||X||[SEARCH ONE FROM:burgerking WHERE:ALONGROUTE]
+4||4||[SEARCH ONE FROM:restroom WHERE:route]||O||X||[SEARCH ONE FROM:restroom WHERE:ALONGROUTE]
+4||4||[SEARCH ONE FROM:restroom facility WHERE:route]||O||X||[SEARCH ONE FROM:restroom facility WHERE:ALONGROUTE]
+4||4||[SEARCH ONE FROM:market WHERE:route]||O||X||[SEARCH ONE FROM:super market WHERE:ALONGROUTE]
+4||4||[SEARCH ONE FROM:supermarket WHERE:route]||O||X||[SEARCH ONE FROM:supermarket WHERE:ALONGROUTE]
+4||4||[SEARCH ONE FROM:school WHERE:route]||O||X||[SEARCH ONE FROM:school WHERE:ALONGROUTE]
+4||4||[SEARCH ONE FROM:starbucks WHERE:route]||O||X||[SEARCH ONE FROM:starbucks WHERE:ALONGROUTE]
+4||4||[SEARCH ONE FROM:coffee shop WHERE:route]||O||X||[SEARCH ONE FROM:coffee shop WHERE:ALONGROUTE]
+4||4||[SEARCH ONE FROM:cafe WHERE:route]||O||X||[SEARCH ONE FROM:cafe WHERE:ALONGROUTE]
+4||4||[SEARCH ONE FROM:college WHERE:route]||O||X||[SEARCH ONE FROM:college WHERE:ALONGROUTE]
+4||4||[SEARCH ONE FROM:gas station WHERE:route]||O||X||[SEARCH ONE FROM:gas station WHERE:ALONGROUTE]
+4||4||[SEARCH ONE FROM:park WHERE:route]||O||X||[SEARCH ONE FROM:park WHERE:ALONGROUTE]
+4||4||[SEARCH ONE FROM:department store WHERE:route]||O||X||[SEARCH ONE FROM:department store WHERE:ALONGROUTE]
+4||4||[SEARCH ONE FROM:route WHERE:WASHINGTON]||O||X||[SEARCH ONE FROM:restaurent WHERE:ALONGROUTE]
+4||4||[SEARCH ONE FROM:parking WHERE:route]||O||X||[SEARCH ONE FROM:indoor parking WHERE:ALONGROUTE]
+4||4||[SEARCH ONE FROM:parking WHERE:route]||O||X||[SEARCH ONE FROM:outdoor parking WHERE:ALONGROUTE]
+4||4||[SEARCH ONE FROM:destination WHERE:route]||O||X||[SEARCH ONE FROM:my destination WHERE:ALONGROUTE]
+5||5||[SEARCH ONE FROM:burger king WHERE:burger king RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:burger king RANGE:50 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:burger king WHERE:burger king RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:burger king RANGE:100 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:burger king WHERE:burger king RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:burger king RANGE:500 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:burger king WHERE:burger king RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:burger king RANGE:1000 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:burger king WHERE:burger king RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:burger king RANGE:2000 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:burger king WHERE:burgerking RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:burgerking RANGE:50 meters WITH:[SORT PRICE ASC]]
+5||15||[ROUTE INFO:SCHOOL]||X||X||[SEARCH ONE FROM:burger king WHERE:burgerking RANGE:100 meters WITH:[SORT PRICE ASC]]
+5||10||[MODE GUIDANCE WITH:[ROUTE TO:[SEARCH KEYWORD:MONALISA]]||X||X||[SEARCH ONE FROM:burger king WHERE:burgerking RANGE:500 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:burger king WHERE:burgerking RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:burgerking RANGE:1000 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:burger king WHERE:burgerking RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:burgerking RANGE:2000 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:restroom WHERE:WASHINGTON RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:restroom RANGE:50 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:restroom WHERE:WASHINGTON RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:restroom RANGE:100 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:restroom WHERE:WASHINGTON RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:restroom RANGE:500 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:restroom WHERE:WASHINGTON RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:restroom RANGE:1000 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:restroom WHERE:WASHINGTON RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:restroom RANGE:2000 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:burger king WHERE:restroom facility RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:restroom facility RANGE:50 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:burger king WHERE:restroom facility RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:restroom facility RANGE:100 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:burger king WHERE:restroom facility RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:restroom facility RANGE:500 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:burger king WHERE:restroom facility RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:restroom facility RANGE:1000 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:burger king WHERE:restroom facility RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:restroom facility RANGE:2000 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:burger king WHERE:super market RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:super market RANGE:50 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:burger king WHERE:super market RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:super market RANGE:100 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:burger king WHERE:super market RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:super market RANGE:500 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:burger king WHERE:super market RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:super market RANGE:1000 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:burger king WHERE:super market RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:super market RANGE:2000 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:supermarket WHERE:WASHINGTON RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:supermarket RANGE:50 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:supermarket WHERE:WASHINGTON RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:supermarket RANGE:100 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:supermarket WHERE:WASHINGTON RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:supermarket RANGE:500 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:supermarket WHERE:WASHINGTON RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:supermarket RANGE:1000 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:supermarket WHERE:WASHINGTON RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:supermarket RANGE:2000 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:school WHERE:SCHOOL RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:school RANGE:50 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:school WHERE:SCHOOL RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:school RANGE:100 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:school WHERE:SCHOOL RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:school RANGE:500 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:school WHERE:SCHOOL RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:school RANGE:1000 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:burger king WHERE:school RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:school RANGE:2000 meters WITH:[SORT PRICE ASC]]
+5||11||[MODE DRIVERANGE TO:[SEARCH KEYWORD:WASHINGTON FROM:SCHEDULE WHEN:noon] WITH:[VOICERESPONSE TEMPLATE:YES/NO*]]||X||X||[SEARCH ONE FROM:burger king WHERE:starbucks RANGE:50 meters WITH:[SORT PRICE ASC]]
+5||11||[MODE DRIVERANGE TO:[SEARCH KEYWORD:WASHINGTON FROM:SCHEDULE WHEN:noon] WITH:[VOICERESPONSE TEMPLATE:YES/NO*]]||X||X||[SEARCH ONE FROM:burger king WHERE:starbucks RANGE:100 meters WITH:[SORT PRICE ASC]]
+5||11||[MODE DRIVERANGE TO:[SEARCH KEYWORD:WASHINGTON FROM:SCHEDULE WHEN:noon] WITH:[VOICERESPONSE TEMPLATE:YES/NO*]]||X||X||[SEARCH ONE FROM:burger king WHERE:starbucks RANGE:500 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:starbucks WHERE:SCHOOL RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:starbucks RANGE:1000 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:burger king WHERE:starbucks RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:starbucks RANGE:2000 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:coffee shop WHERE:WASHINGTON RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:coffee shop RANGE:50 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:coffee shop WHERE:WASHINGTON RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:coffee shop RANGE:100 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:coffee shop WHERE:WASHINGTON RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:coffee shop RANGE:500 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:coffee shop WHERE:WASHINGTON RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:coffee shop RANGE:1000 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:coffee shop WHERE:WASHINGTON RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:coffee shop RANGE:2000 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:cafe WHERE:WASHINGTON RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:cafe RANGE:50 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:cafe WHERE:WASHINGTON RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:cafe RANGE:100 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:cafe WHERE:WASHINGTON RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:cafe RANGE:500 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:cafe WHERE:WASHINGTON RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:cafe RANGE:1000 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:cafe WHERE:WASHINGTON RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:cafe RANGE:2000 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:burger king WHERE:college RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:college RANGE:50 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:burger king WHERE:college RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:college RANGE:100 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:burger king WHERE:college RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:college RANGE:500 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:burger king WHERE:college RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:college RANGE:1000 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:burger king WHERE:college RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:college RANGE:2000 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:gas station WHERE:WASHINGTON RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:gas station RANGE:50 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:gas station WHERE:WASHINGTON RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:gas station RANGE:100 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:gas station WHERE:WASHINGTON RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:gas station RANGE:500 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:gas station WHERE:WASHINGTON RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:gas station RANGE:1000 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:gas station WHERE:WASHINGTON RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:gas station RANGE:2000 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:park WHERE:WASHINGTON RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:park RANGE:50 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:park WHERE:WASHINGTON RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:park RANGE:100 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:park WHERE:WASHINGTON RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:park RANGE:500 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:park WHERE:WASHINGTON RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:park RANGE:1000 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:park WHERE:WASHINGTON RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:park RANGE:2000 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:department store WHERE:WASHINGTON RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:department store RANGE:50 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:department store WHERE:WASHINGTON RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:department store RANGE:100 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:department store WHERE:WASHINGTON RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:department store RANGE:500 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:department store WHERE:WASHINGTON RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:department store RANGE:1000 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:department store WHERE:WASHINGTON RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:department store RANGE:2000 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:burger king WHERE:restaurent RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:restaurent RANGE:50 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:burger king WHERE:restaurent RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:restaurent RANGE:100 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:burger king WHERE:restaurent RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:restaurent RANGE:500 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:burger king WHERE:restaurent RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:restaurent RANGE:1000 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:burger king WHERE:restaurent RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:restaurent RANGE:2000 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:burger king WHERE:parking RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:indoor parking RANGE:50 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:burger king WHERE:parking RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:indoor parking RANGE:100 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:burger king WHERE:parking RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:indoor parking RANGE:500 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:burger king WHERE:parking RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:indoor parking RANGE:1000 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:burger king WHERE:parking RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:indoor parking RANGE:2000 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:burger king WHERE:parking RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:outdoor parking RANGE:50 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:burger king WHERE:parking RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:outdoor parking RANGE:100 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:burger king WHERE:parking RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:outdoor parking RANGE:500 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:burger king WHERE:parking RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:outdoor parking RANGE:1000 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:burger king WHERE:parking RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:outdoor parking RANGE:2000 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:burger king WHERE:destination RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:my destination RANGE:50 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:burger king WHERE:destination RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:my destination RANGE:100 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:burger king WHERE:destination RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:my destination RANGE:500 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:burger king WHERE:destination RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:my destination RANGE:1000 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:burger king WHERE:destination RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burger king WHERE:my destination RANGE:2000 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:burgerking WHERE:burger king RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burgerking WHERE:burger king RANGE:50 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:burgerking WHERE:burger king RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burgerking WHERE:burger king RANGE:100 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:burgerking WHERE:burger king RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burgerking WHERE:burger king RANGE:500 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:burgerking WHERE:burger king RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burgerking WHERE:burger king RANGE:1000 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:burgerking WHERE:burger king RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burgerking WHERE:burger king RANGE:2000 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:burgerking WHERE:burgerking RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burgerking WHERE:burgerking RANGE:50 meters WITH:[SORT PRICE ASC]]
+5||9||[ROUTE ALTROUTE USE:[SEARCH LINKS:WASHINGTON]]||X||X||[SEARCH ONE FROM:burgerking WHERE:burgerking RANGE:100 meters WITH:[SORT PRICE ASC]]
+5||10||[MODE GUIDANCE WITH:[ROUTE TO:[SEARCH KEYWORD:burgerking]]]||X||X||[SEARCH ONE FROM:burgerking WHERE:burgerking RANGE:500 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:burgerking WHERE:burgerking RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burgerking WHERE:burgerking RANGE:1000 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:burgerking WHERE:burgerking RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burgerking WHERE:burgerking RANGE:2000 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:restroom WHERE:WASHINGTON RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burgerking WHERE:restroom RANGE:50 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:restroom WHERE:WASHINGTON RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burgerking WHERE:restroom RANGE:100 meters WITH:[SORT PRICE ASC]]
+5||5||[SEARCH ONE FROM:restroom WHERE:WASHINGTON RANGE:500M WITH:[SORT PRICE ASC]]||O||X||[SEARCH ONE FROM:burgerking WHERE:restroom RANGE:500 meters WITH:[SORT PRICE ASC]]
+Correct_ID : 269Correct_nav_num : 183Correct_all :  183Accuracy ID : 53.800000000000004Accuracy nav : 36.6Accuracy all: 36.6

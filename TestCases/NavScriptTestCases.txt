@@ -1,0 +1,6 @@
+#CaseID(일련번호)||NaturalLanguage||ClassID||NavScript
+1||What's the weather forecast for this afternoon?||0||[SEARCH FROM:WEATHERFORECAST WHERE:HERE WHEN:AFTERNOON]
+2||What's the traffic like on my route?||1||[SEARCH FROM:TRAFFIC WHERE:ONROUTE]
+3||Show me a Traffic Camera on US-101 and Bayshore Blvd||2||[SEARCH FROM:TRAFFICCAMERA WHERE:[SEARCH GEOCODE WHERE:”US-101 and Bayshore Blvd”]]
+...
+...
